@@ -1,0 +1,50 @@
+
+h1, h2, p, nav{
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    margin-top: 120px;
+    line-height: 2;
+}
+.AboutMe{
+    display: flex;
+    flex: content;
+
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 50%;
+}
+.headshot{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px 50px 0px 50px ;
+    min-width: 50%;
+}
+
+@media(max-width:800px){
+    .skills{
+        flex-direction: column;
+        align-items: center;
+   
+    }
+    .about{
+        justify-content: center;
+    }
+    .AboutMe{
+        flex-direction: column;
+    }
+    .headshot{
+        margin: 0 120px 0 120px;
+        justify-content: center;
+    }
+}
