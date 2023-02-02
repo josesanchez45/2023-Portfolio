@@ -1,4 +1,6 @@
 
+body{background-color: black;
+color: white;}
 h1, h2, p, nav{
     font-family: 'Playfair Display', serif;
 }
@@ -8,6 +10,9 @@ h2{
 h1, h2{
     display: flex;
     justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
 }
 footer{
     display: flex;
@@ -17,11 +22,18 @@ footer{
 .about{
     margin-top: 120px;
     line-height: 2;
+    color: black;
 }
 .AboutMe{
     display: flex;
     flex: content;
-
+}
+.skillsBackground{
+    background-color: black;
+    color: white;
+}
+.aboutMeSection{
+    background-image: url(/imgs/linus-belanger-IXWS2b9E-P8-unsplash.jpg);
 }
 .skills{
     display: flex;
@@ -34,6 +46,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
+    margin-bottom: 20px;
 }
 .icon{
     width: 50px;
@@ -71,5 +84,10 @@ footer{
     }
     .singleSkill{
         margin: 1em 1em;
+    }
+    .footerLinks{
+        padding: .2em;
+        flex-direction: column;
+        align-items: center;
     }
 }
