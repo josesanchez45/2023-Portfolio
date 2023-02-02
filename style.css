@@ -22,7 +22,7 @@ footer{
 .about{
     margin-top: 120px;
     line-height: 2;
-    color: black;
+    color: white;
 }
 .AboutMe{
     display: flex;
@@ -33,7 +33,9 @@ footer{
     color: white;
 }
 .aboutMeSection{
-    background-image: url(/imgs/linus-belanger-IXWS2b9E-P8-unsplash.jpg);
+    background-image: url(/imgs/pramod-tiwari-EQSBOd7M29U-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .skills{
     display: flex;
