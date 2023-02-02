@@ -84,15 +84,14 @@ footer{
 }
 .github{
     display: flex;
-    justify-content: center;
     
 }
-.projectimage{
-    width: 400px;
+.gitThumb{
+    float: left;
+    width:  400px;
     height: 400px;
+    background-size: cover;
     padding: .5em;
-    display: flex;
-
 }
 
 @media(max-width:1050px){
