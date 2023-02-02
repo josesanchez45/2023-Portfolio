@@ -1,5 +1,5 @@
 
-body{background-color: black;
+body{background-color: rgb(41, 57, 94);
 color: white;}
 h1, h2, p, nav{
     font-family: 'Playfair Display', serif;
@@ -7,10 +7,16 @@ h1, h2, p, nav{
 h2{
     margin-top: 1em;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
 h1, h2{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(41, 57, 94);
     color: white;
     margin: 0px;
 }
@@ -19,21 +25,31 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
 }
+#SkillSet{
+    padding-top: 3em;
+}
+#ProjectsSection{
+    padding-top: 3em;
+}
+.headingtwo{
+    padding-bottom: 1em ;
+}
 .about{
-    margin-top: 120px;
+    margin-top: 150px;
     line-height: 2;
     color: white;
+    padding-bottom: 1em;
 }
 .AboutMe{
     display: flex;
     flex: content;
 }
 .skillsBackground{
-    background-color: black;
+    background-color:rgb(41, 57, 94);
     color: white;
 }
 .aboutMeSection{
-    background-image: url(/imgs/pramod-tiwari-EQSBOd7M29U-unsplash.jpg);
+    background-image: url(/imgs/background.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -53,6 +69,7 @@ footer{
 .icon{
     width: 50px;
     height:auto;
+    margin: .2em .4em;
 }
 .singleSkill{
     margin: .5em .5em;
@@ -65,6 +82,24 @@ footer{
 .footerLinks{
     padding: .5em .3em;
 }
+.github{
+    display: flex;
+    justify-content: center;
+    
+}
+.projectimage{
+    width: 400px;
+    height: 400px;
+    padding: .5em;
+    display: flex;
+
+}
+
+@media(max-width:1050px){
+    .about{
+        margin-top: 100px;
+    }
+}
 
 @media(max-width:800px){
     .skills{
@@ -75,6 +110,7 @@ footer{
     }
     .about{
         justify-content: center;
+        margin-top: 100px;
     }
     .AboutMe{
         flex-direction: column;
@@ -89,6 +125,10 @@ footer{
     }
     .footerLinks{
         padding: .2em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .githubthumbgallery{
         flex-direction: column;
         align-items: center;
     }
