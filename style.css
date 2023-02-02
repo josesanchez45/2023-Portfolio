@@ -2,9 +2,16 @@
 h1, h2, p, nav{
     font-family: 'Playfair Display', serif;
 }
-
+h2{
+    margin-top: 1em;
+}
 h1, h2{
     display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .about{
@@ -24,11 +31,29 @@ h1, h2{
 }
 .headshot{
     border-radius: 50%;
-    margin: 0px 50px 0px 50px ;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.icon{
+    width: 50px;
+    height:auto;
+}
+.singleSkill{
+    margin: .5em .5em;
+
+}
+.projectsDescription{
+    margin-top: 1em;
+    line-height: 2;
+}
+.footerLinks{
+    padding: .5em .3em;
 }
 
 @media(max-width:800px){
     .skills{
+        margin-top: 2em;
         flex-direction: column;
         align-items: center;
    
@@ -38,8 +63,13 @@ h1, h2{
     }
     .AboutMe{
         flex-direction: column;
+        align-items: center;
     }
     .headshot{
         align-items: center;
+        margin-top: 0px;
+    }
+    .singleSkill{
+        margin: 1em 1em;
     }
 }
