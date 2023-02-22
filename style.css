@@ -50,7 +50,7 @@ footer{
     color: white;
 }
 .aboutMeSection{
-    background-image: url(imgs/background.jpg);
+    background-image: url(imgs\background.jpg);
     background-position: center;
     background-size: cover;
 }
