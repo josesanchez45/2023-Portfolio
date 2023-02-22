@@ -8,6 +8,7 @@ h2{
     margin-top: 1em;
 }
 a{
+    color: greenyellow;
     text-decoration: none;
 }
 a:hover{
@@ -84,20 +85,36 @@ footer{
 }
 .github{
     display: flex;
+    padding: 2em;
+    flex-direction: column;
     
 }
-.gitThumb{
-    float: left;
-    width:  400px;
-    height: 400px;
-    background-size: cover;
-    padding: .5em;
+.projectTitle{
+    font-weight: bold;
+    margin-top: 1em;
 }
+.projectTag{
+    font-style: italic;
+}
+.projectOverview{
+    font-weight: bold;
+    font-style: italic;
+}
+.githubLink{
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
 
 @media(max-width:1050px){
     .about{
         margin-top: 100px;
     }
+    .github{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
 }
 
 @media(max-width:800px){
@@ -127,8 +144,5 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .githubthumbgallery{
-        flex-direction: column;
-        align-items: center;
-    }
+ 
 }

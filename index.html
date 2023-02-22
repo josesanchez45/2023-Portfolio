@@ -26,8 +26,8 @@
     <title>Portfolio Home</title>
   </head>
   <body>
-    <header id ="Nav">
-      <nav class="navbar navbar-expand-lg bg-body-dark sticky-top" data-bs-theme="dark">
+    <header id ="Nav" class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#Welcome">Welcome!</a>
           <button
@@ -56,10 +56,10 @@
         <h1 class="text-center" id="Welcome">Jose Sanchez</h1>
         <h2 class="text-center headingtwo">Web Dev</h2>
       </div>
-      <section class="aboutMeSection">
+      <section class="aboutMeSection"id="AboutMe">
       <div class="container">
         <div class="AboutMe">
-          <p id="AboutMe" class="about">
+          <p class="about">
             Certified web developer with proficiency in both backend and
             frontend stacks. Experience leader and team player with exposure to
             everything from the logistics industry to the entertainment
@@ -95,35 +95,65 @@
           Below are some projects which I have built using mostly the C#
           language. I have also begun working with Python and developing my
           FrontEnd skills to meet a Full Stack development demand. Please feel
-          free to reach out with questions or browse my entire GitHub.
+          free to reach out with questions or browse my entire GitHub<a href="https://github.com/josesanchez45" target="_blank"> Here</a>.
         </p>
-        <div class="gitthumbgallery">
-        <div class="container">
-          <div class="container github">
-            <div class="container "><img src="/imgs/sasquatch.jpg" alt="Bigfoot Thumbnail" class ="img-fluid gitThumb"></div>
-            <div class="container "> <img src="/imgs/dino.jpg" alt="Dinosaur Thumbnail" class ="img-fluid gitThumb"></div>
-            <div class="container "> <img src="/imgs/api.jpg" alt="API thumbnail"class ="img-fluid gitThumb"></div>
+      </section>
+      <section class="container github">
+        <div>
+        <h3 class="projectTitle">Cryptid Zoo Site</h3>
+        <p class="projectTag">ASP.Net MVC Framework based project that allows the user to create a new comment or update/delete it. Comments are stored in a SQL database.</p>
+        <ul><span class="projectOverview">Project Overview</span>
+          <li>Project created with ASP.NET MVC framework to build out C# code which sends queries to SQL database</li>
+          <li>HTML code used to stored information provide by C# code and SQL into tables for app user</li>
+          <li>Integrated SQL with ASP.NET MVC using C# and the Dapper NuGet package</li>
+          <li>CSS and Bootstrap used to style buttons, fonts and picture layout within the application</li>
+        </ul>
+        <div>
+          <a href="https://github.com/josesanchez45/CryptidZooFinalProject" target="_blank">Github Link</a>
         </div>
-        <div class="container">
-          <div class="container github">
-            <div class="container"> <img src="/imgs/candy.jpg" alt="Candy Thumbnail" class ="img-fluid gitThumb"></div>
-            <div class="container"> <img src="/imgs/taco.jpg" alt="Taco Thumbnail" class ="img-fluid gitThumb"></div>
-            <div class="container"> <a href="https://github.com/josesanchez45/BlackJack-python"><img src="/imgs/blackjack.jpg" alt="blackjack Thumbnail" class ="img-fluid gitThumb"></a> </div>
-          </div>
-
+        <div>
+          <a href="https://www.youtube.com/watch?v=Ut-_4LJNBTc" class="githubLink" target="_blank">Video Walkthrough</a>
         </div>
       </div>
-    </div>
-        </section>
+      <div>
+        <h3 class="projectTitle">Taco Parser</h3>
+        <p class="projectTag">C# .Net Core application utilizing xUnit test driven development and Geolocator NuGet Package to determine which Taco Bells in the provided CSV are the furthest apart from one another.</p>
+        <ul><span class="projectOverview">Project Overview</span>
+          <li>Geolocation NuGet package library used within C# code to parse and compare distances between Taco Bell location within the .NET Core framework using Visual Studio Community</li>
+          <li>xUnit tests created to verify methods within C# and parsing the correct information from Taco Bell location CSV</li>
+          <li>Utilizing nested for loops concept within C#, program successfully iterates through all locations and returns the two Taco Bells further from each other in distance</li>
+        </ul>
+        <div>
+          <a href="https://github.com/josesanchez45/TacoParser" target="_blank">Github Link</a>
+        </div>
+        <div>
+          <a href="https://youtu.be/L9BFtvCzAdQ" class="githubLink" target="_blank">Video Walkthrough</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="projectTitle">Dino Facts API MVC Project</h3>
+        <p class="projectTag">C# ASP.NET Core framework application that calls a random dinosaur fact from a public API. Application still in development.</p>
+        <ul><span class="projectOverview">Project Overview</span>
+          <li>Using ASP.NET MVC framework to write C# code that calls an API with random dinosaur facts</li>
+          <li>Utilizing Newtonsoft.JSON NuGet package and C# code, the API information is converted from JSON into useable information within the .Net framework</li>
+          <li>HTML and CSS used to take information collected through C# code to present user with the dinosaur name and fact returned by the API while also setting up background image and font color</li>
+        </ul>
+        <div>
+          <a href="https://github.com/josesanchez45/Dino-facts-MVC-with-API" target="_blank">Github Link</a>
+        </div>
+        <div>
+          <a href="https://youtu.be/5ytNRKRYTCA" class="githubLink" target="_blank">Video Walkthrough</a>
+        </div>
+      </div>
       </section>
     </main>
     <footer class = "container">
-      <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons" class="footerLinks">Html 5 icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons" class="footerLinks">Css 3 icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" class="footerLinks">C sharp icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/python" title="python icons" class="footerLinks">Python icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" class="footerLinks">Javascript icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/sql-server" title="sql server icons" class="footerLinks">Sql server icons created by juicy_fish - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons" class="footerLinks" target="_blank">Html 5 icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons" class="footerLinks" target="_blank">Css 3 icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" class="footerLinks" target="_blank">C sharp icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/python" title="python icons" class="footerLinks" target="_blank">Python icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" class="footerLinks" target="_blank">Javascript icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/sql-server" title="sql server icons" class="footerLinks" target="_blank">Sql server icons created by juicy_fish - Flaticon</a>
     </footer>
   </body>
 </html>
