@@ -131,10 +131,12 @@ footer{
     margin-left: 10em;
 }
 .messageBox{
-    width: 30em;
+    max-width: 30em;
+    width: 100%;
 }
 .email{
-    width: 30em;
+    max-width: 30em;
+    width: 100%;
 }
 .contactMeTitle{
     margin-top: 1em;
