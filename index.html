@@ -26,7 +26,7 @@
     <title>Portfolio Home</title>
   </head>
   <body>
-    <header id ="Nav" class="sticky-top">
+    <header id ="Nav">
       <nav class="navbar navbar-expand-lg bg-body-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#Welcome">Welcome!</a>
@@ -157,18 +157,16 @@
           <input type="email" name="email" class="email" required>
           <input type="hidden" name="_next" value="https://josesanchez45.github.io/2023-Portfolio/thanks.html">
           <h3>Message</h3>
-          <input type="text" name="name" class="messageBox" required>
+          <div class="container">
+          <textarea type="text" name="name" placeholder ="Enter your message here" class="messageBox" required maxlength="1000"></textarea>
+        </div>
             <button type="submit" class="btn btn-success btnmargin">Send</button>
          </form>
 
       </section>
     </main>
     <footer class = "container">
-      <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons" class="footerLinks" target="_blank">Html 5 icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons" class="footerLinks" target="_blank">Css 3 icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" class="footerLinks" target="_blank">C sharp icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/python" title="python icons" class="footerLinks" target="_blank">Python icons created by Freepik - Flaticon</a>
-      <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" class="footerLinks" target="_blank">Javascript icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons" class="footerLinks" target="_blank">icons created by Freepik - Flaticon</a>
       <a href="https://www.flaticon.com/free-icons/sql-server" title="sql server icons" class="footerLinks" target="_blank">Sql server icons created by juicy_fish - Flaticon</a>
     </footer>
   </body>

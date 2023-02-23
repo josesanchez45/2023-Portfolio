@@ -131,11 +131,15 @@ footer{
     margin-left: 10em;
 }
 .messageBox{
-    max-width: 30em;
+    background-color: lightblue;
+    color: black;
+    height: 10em;
     width: 100%;
 }
 .email{
-    max-width: 30em;
+    color: black;
+    background-color: lightblue;
+    max-width: 20em;
     width: 100%;
 }
 .contactMeTitle{
@@ -144,6 +148,7 @@ footer{
 .btnmargin{
     margin-bottom: 2em;
 }
+
 
 
 
