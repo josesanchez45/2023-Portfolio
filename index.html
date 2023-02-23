@@ -149,14 +149,17 @@
       </section>
 
       <section id="ContactMe"class="container">
-        <h2>Contact Me!</h2>
-        <form action="https://formsubmit.co/jose.sanchez.artist@gmail.com" method="POST">
+        <h2 class="contactMeTitle">Contact Me!</h2>
+        <br>
+        <form action="https://formsubmit.co/jose.sanchez.artist@gmail.com" method="POST" class="container">
           <input type="hidden" name="_subject" value="New email!">
-          <input type="email" name="email" placeholder="Email Address" required>
+          <h3>Email Address</h3>
+          <input type="email" name="email" class="email" required>
           <input type="hidden" name="_next" value="https://josesanchez45.github.io/2023-Portfolio/thanks.html">
-          <input type="text" name="name" placeholder="Message" required>
-          <button type="submit">Send</button>
-        </form>
+          <h3>Message</h3>
+          <input type="text" name="name" class="messageBox" required>
+            <button type="submit" class="btn btn-success btnmargin">Send</button>
+         </form>
 
       </section>
     </main>
