@@ -50,7 +50,7 @@ footer{
     color: white;
 }
 .aboutMeSection{
-    background-image: url(/imgs/background.jpg);
+    background-image: url(imgs/background.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -105,7 +105,20 @@ footer{
     margin-bottom: 1em;
 }
 .thankYou{
+    display: flex;
     justify-content: center;
+}
+.thanks{
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+.thankyouNote{
+    margin-top: 1em;
+    margin-left: 5em;
+}
+.happpyCoding{
+
+    margin-left: 10em;
 }
 
 
@@ -147,5 +160,40 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .thanks{
+        font-size: medium;
+        margin-top: 4em;
+        margin-bottom: 1em;
+    }
+    .thankyouNote{
+        font-size: medium;
+        margin-top: 1em;
+        margin-left: 2em;
+    }
+    .happpyCoding{
+        font-size: medium;
+        margin-left: 6em;
+    }
+    .thankYou{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
  
+}
+@media(max-width:500px){
+    .thanks{
+        font-size: small;
+
+    }
+    .thankyouNote{
+        font-size: small;
+
+    }
+    .happpyCoding{
+        font-size: small;
+    
+    }
 }
